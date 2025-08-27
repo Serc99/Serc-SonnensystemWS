@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.flex {
+  display: flex;
+  width: 100%;
+  box-shadow: 0 30px 50px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  background-color: rgb(119, 136, 153);
+}
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  background-color: rgb(255, 228, 196);
+}
+
+/* ------Links section------ */
+a:link {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  float: left;
+  display: block;
+  color: black;
+
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.flex a.active {
+  background-color: white;
+  color: black;
+}
+
+a:hover {
+  background-color: rgb(176, 196, 222);
+  color: black;
+  display: block;
+}
+
+.navigation a {
+  padding: 24px 26px;
+}
+
+.navigation {
+  list-style: none;
+}
+/* ------Links section------ */
+
+.übermich {
+  background-color: #ffffff;
+  padding: 64px 10%;
+}
+
+.übermich {
+  background-color: #ffffff;
+  background: rgba(0, 0, 0, 0) url("pexels-taryn-elliott-3889704.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.übermich {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 14px;
+}
+
+.home,
+.suche,
+.kontakt,
+.übermich {
+  width: 100%;
+  background-color: lightslategray;
+  border: 1px black;
+}
+
+.flexübermich {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.übermichtxt {
+  margin-top: 32px;
+  margin-bottom: 8px;
+}
+
+.flex2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 11px;
+  color: white;
+  text-align: left;
+}
+
+.copyright {
+  text-align: center;
+}
